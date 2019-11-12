@@ -1,0 +1,14 @@
+dist: trusty
+language: node_js
+node_js:
+  - 13
+deploy:
+  provider: npm
+  email: novikovio74@gmail.com
+  skip_cleanup: true
+  tag: latest
+  on:
+    branch: master
+    repo: Hooked74/prompt
+  api_key:
+    secure: Sw3PTLg40Rd3TMMJwLcn1cMfZ8TSEASTgATcu4ZJ373qq2HewvkmZFQsnPJ+qjLvWVuscj1D3Kb3kYnlPkIQoGf2S9LZ6SYOM7dDbtTjHxFg9l6uuGg1zq93lV/xzArFo2pRR6AftnMtO8zffom98TUDD2lko6sHCMdmv/opbmQwObHnYi9IliMBS3Iqt7eoItmz0bldxZiz2It9wbONEhge4wCKBRADFDVuTEfOD4tk4fSReOZ1cwntDtgJqfA0NCaEzTUkRuk2lu4lT4R1nW8f/LrazcWtT4RoFITbr9Js2ejRVmt1QJkO+AfbuMsZB33vn+3jutx8+R6kJjb3g+cGONAW/y+dNJxkKyHxCZ7dj/Xz+KihAc+onV6UtAyRLy61Ev+Z7L1HIgzkEpce8WM9DNx9LCIi4n9Nw+VfCtxrcXRmUbYvQCZVgfJf9k8H2iXWJlk4OppgGH2VKueu5NpPk5PYKAjDBkEI0j8TLMOZDWE+bPNtz2sGu+/jVZbFWV8xznlzoC2ctnDWieTG5brd2l/UddZdOUj9+sFka19Dc0Vshmgzy0So9N9YHowwRV2zAyPJgBjuzdUDL52pGYpVXp+Fna7HaRDWuMcvHKd4KcDrLi2jxmdC/bg6xrVHNwOeg4Fq8TZB/05eguatlSlFKZbSyebYXWPrkchx8jM=

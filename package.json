@@ -1,0 +1,28 @@
+{
+  "name": "@hooked74/prompt",
+  "version": "1.0.0",
+  "description": "A beautiful command-line prompt for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hooked74/prompt.git"
+  },
+  "keywords": [
+    "command",
+    "prompt",
+    "node"
+  ],
+  "author": "Igor Novikov <novikovio74@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hooked74/prompt/issues"
+  },
+  "homepage": "https://github.com/Hooked74/prompt#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "inquirer": "^7.0.0"
+  }
+}
